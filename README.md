@@ -35,7 +35,7 @@ mv prisma/.env.copy prisma/.env
 # Setup PostgresDB
 psql
 # Create table
-> REATE DATABASE prismagql;
+> CREATE DATABASE prismagql;
 > \q
 # Prisma DB Migrate
 npx prisma migrate up --experimental
